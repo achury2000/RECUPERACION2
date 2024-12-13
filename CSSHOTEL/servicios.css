@@ -1,0 +1,88 @@
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f5ebeb;
+    background-color: #6e2c2c;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: #ff4800;
+}
+
+h1, h2 {
+    color: #ffffff;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+/* Header Styles */
+.header {
+    text-align: center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('header.jpg') no-repeat center/cover;
+    color: #fcfcfc;
+    padding: 60px 20px;
+}
+
+.header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 1.2em;
+}
+
+/* Services Section Styles */
+.service {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    background: #917243;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(228, 224, 224, 0.1);
+    overflow: hidden;
+}
+
+.service img {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}
+
+.service-info {
+    padding: 20px;
+    width: 50%;
+}
+
+.service-info h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+    color: #fffdfb;
+}
+
+.service-info p {
+    font-size: 1em;
+    color: #ffffff;
+}
+
+/* Footer Styles */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #eb2019;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer p {
+    margin: 0;
+}
